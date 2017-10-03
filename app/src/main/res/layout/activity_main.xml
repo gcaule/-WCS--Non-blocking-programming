@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.apprenti.liftsimulator.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/floor7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"/>
+
+        <Button
+            android:id="@+id/floor8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"/>
+
+        <Button
+            android:id="@+id/floor9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/floor6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"/>
+
+        <Button
+            android:id="@+id/floor5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"/>
+
+        <Button
+            android:id="@+id/floor4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/floor3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"/>
+
+        <Button
+            android:id="@+id/floor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"/>
+
+        <Button
+            android:id="@+id/floor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/floor0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingTop="16dp">
+        <TextView
+            android:id="@+id/floor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/floor"
+            android:paddingRight="8dp"/>
+
+        <TextView
+            android:id="@+id/floor_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/current_floor"/>
+    </LinearLayout>
+
+</LinearLayout>

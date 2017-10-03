@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lift Simulator</string>
+    <string name="floor">Etage :</string>
+    <string name="current_floor">0</string>
+</resources>
